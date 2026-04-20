@@ -1,0 +1,74 @@
+# AI Agent Project Prompt — BUILD
+
+IMPORTANT:
+- Only focus on building the application
+- Assume a clean, working implementation is expected
+- Include a README with clear instructions on how to run the app
+
+---
+
+## Goal
+Create a browser-based <<REPLACE: app/game type>> that allows users to <<REPLACE: main objective>>.
+
+---
+
+## Technical Requirements
+- Use HTML, CSS, and vanilla JavaScript only
+- Must run by opening index.html in a browser
+- No frameworks or external dependencies
+- Keep the implementation simple and functional
+
+---
+
+## Features
+The application must include:
+
+- A clear user interface
+- Instructions visible to the user
+- At least 2 interactive features
+
+Custom Features:
+- Feature 1: <<REPLACE>>
+- Feature 2: <<REPLACE>>
+
+---
+
+## Behavior & Logic
+- User action: <<REPLACE>>
+- System response: <<REPLACE>>
+- Success condition: <<REPLACE>>
+
+---
+
+## File Structure
+Generate exactly these files:
+
+- index.html
+- styles.css
+- script.js
+- README.md
+
+Ensure:
+- All files are properly linked
+- Code runs without console errors
+
+---
+
+## README Requirements
+Create a README.md that includes:
+
+- Project title
+- Description of what the app does
+- Features list
+- Step-by-step instructions to run the app
+- Requirements (browser, any dependencies if used)
+- File structure overview
+
+---
+
+## Output Format
+Provide:
+
+1. Code for each file in separate sections
+2. README.md
+3. A short explanation of how the app works

@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frog Lily Pad Run</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <section class="game-panel">
+      <div class="panel-header">
+        <div>
+          <p class="eyebrow">Arcade Pond</p>
+          <h1>Frog Lily Pad Run</h1>
+        </div>
+        <button id="restartButton" type="button">New Pond</button>
+      </div>
 
+      <div class="hud">
+        <div class="hud-card">
+          <span class="hud-label">Score</span>
+          <strong id="scoreValue">0</strong>
+        </div>
+        <div class="hud-card">
+          <span class="hud-label">Pads Left</span>
+          <strong id="padsValue">0</strong>
+        </div>
+        <div class="hud-card hud-card-wide">
+          <span class="hud-label">Status</span>
+          <strong id="statusValue">Press an arrow key or WASD to start.</strong>
+        </div>
+      </div>
+
+      <div class="game-frame">
+        <canvas id="gameCanvas" width="860" height="560" aria-label="Frog lily pad game area"></canvas>
+        <div class="scanlines" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <aside class="info-panel">
+      <div class="info-card">
+        <h2>How to Play</h2>
+        <p>Use the arrow keys or WASD to hop through the pond.</p>
+        <p>Green pads can turn yellow, sink, and reappear somewhere else in the pond.</p>
+        <p>Red pads are unsafe, so steer around them.</p>
+      </div>
+
+      <div class="info-card">
+        <h2>Goal</h2>
+        <p>Stay alive as long as possible and keep hopping before the pad beneath the frog disappears.</p>
+      </div>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
